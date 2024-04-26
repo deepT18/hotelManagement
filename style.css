@@ -82,7 +82,8 @@
     flex-direction: column;
     align-items:flex-start;
     width:100%;
-    padding: 20px;
+    margin: 0px;
+    padding: 10px;
 }
 
 .card p{
@@ -103,7 +104,27 @@
     margin: 0px;
 }
 
-@media screen and (max-width: 640px) {
+.mobile-view-menue{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding:10px 0px 0px 5px;
+}
+
+.mobile-view-container{
+    display: none;
+}
+
+.mobile-view-menue li{
+    color:burlywood;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 768px) {
     .hero-text {
         width: 40%;
         bottom: 0;
@@ -123,5 +144,8 @@
     .mobile-view{
         display: flex;
         flex-direction: column;
+    }
+    .mobile-view-container{
+        display: block;
     }
 }
