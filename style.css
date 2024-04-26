@@ -1,6 +1,6 @@
 .body {
     background-color: #dad6df;
-    margin: 0;
+    margin: 0px;
 }
 
 .navbar {
@@ -75,13 +75,13 @@
     font-size:medium;
 }
 .about p{
-    width:33vw;
+    width:100%;
 }
 .card{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    width:33vw;
+    width:100%;
     padding: 20px;
 }
 
@@ -99,7 +99,8 @@
 }
 .mobile-view{
     display: flex;
-    padding: 20px;
+    padding: 10px;
+    margin: 0px;
 }
 
 @media screen and (max-width: 640px) {
